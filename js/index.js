@@ -7,14 +7,17 @@ function greetProgrammer() {
   console.log("Hello, programmer!");
 }
 
+
 /*
   You should be able to call this function with one argument and see its output in the terminal:
   greet("Naureen");
   => "Hello, Naureen!"
 */
-function greet(name) {
+function greet(name="Naureen") {
   console.log(`Hello, ${name}!`);
+
 }
+
 
 /*
   You should be able to call this function with no arguments and see its output in the terminal:
@@ -54,3 +57,5 @@ function halve(number) {
 
   return number / 2;
 }
+const result = halve("two")
+console.log(result) 
